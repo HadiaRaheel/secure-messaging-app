@@ -82,12 +82,13 @@ This project implements a zero-knowledge end-to-end encrypted (E2EE) messaging a
 -	Custom authenticated key exchange protocol prevents MITM attacks
 -	Comprehensive security logging and audit trails
 -	Demonstrated attack resistance against MITM and replay attacks
+
 **Key Principles**
-*✅* Confidentiality: Only intended recipients can decrypt content
-✅ Integrity: Messages cannot be tampered without detection
-✅ Authenticity: Digital signatures verify sender identity
-✅ Forward Secrecy: Compromised keys don't reveal past messages
-✅ Zero-Knowledge Server: Server stores only encrypted ciphertext
+- Confidentiality: Only intended recipients can decrypt content
+- Integrity: Messages cannot be tampered without detection
+- Authenticity: Digital signatures verify sender identity
+- Forward Secrecy: Compromised keys don't reveal past messages
+- Zero-Knowledge Server: Server stores only encrypted ciphertext
 
 ---
 
