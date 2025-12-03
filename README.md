@@ -122,4 +122,5 @@ node replay-attack.js    # Replay attack demo
 
 ## 📄 License
 This project is submitted as part of an academic requirement for the Information Security course at FAST-NUCES. All rights reserved by the project team.
+
 **Academic Use Only** - This project is intended for educational purposes. Do not use in production without thorough security audit and proper implementation of production-grade security measures.
