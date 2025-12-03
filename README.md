@@ -74,20 +74,22 @@ Access at: `http://localhost:3000`
 
 ---
 
-🎯 Overview
+# 🎯 Overview
 This project implements a zero-knowledge end-to-end encrypted (E2EE) messaging and file-sharing system where:
-•	Messages and files never exist in plaintext outside sender/receiver devices
-•	The server cannot decrypt or view any user content
-•	Hybrid cryptography combines RSA-2048 and AES-256-GCM
-•	Custom authenticated key exchange protocol prevents MITM attacks
-•	Comprehensive security logging and audit trails
-•	Demonstrated attack resistance against MITM and replay attacks
-Key Principles
-✅ Confidentiality: Only intended recipients can decrypt content
+-	Messages and files never exist in plaintext outside sender/receiver devices
+-	The server cannot decrypt or view any user content
+-	Hybrid cryptography combines RSA-2048 and AES-256-GCM
+-	Custom authenticated key exchange protocol prevents MITM attacks
+-	Comprehensive security logging and audit trails
+-	Demonstrated attack resistance against MITM and replay attacks
+**Key Principles**
+*✅* Confidentiality: Only intended recipients can decrypt content
 ✅ Integrity: Messages cannot be tampered without detection
 ✅ Authenticity: Digital signatures verify sender identity
 ✅ Forward Secrecy: Compromised keys don't reveal past messages
 ✅ Zero-Knowledge Server: Server stores only encrypted ciphertext
+
+---
 
 ## 🔒 Key Features
 
@@ -115,6 +117,7 @@ cd attack-demos
 node mitm-attack.js      # MITM demonstration
 node replay-attack.js    # Replay attack demo
 ```
+---
 
 ## 📄 License
 This project is submitted as part of an academic requirement for the Information Security course at FAST-NUCES. All rights reserved by the project team.
